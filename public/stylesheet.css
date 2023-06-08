@@ -1,0 +1,117 @@
+h1 {
+  font-size: 25px;
+}
+.highlight {
+  color: blue;
+}
+ul li:last-child {
+  color: red;
+}
+body {
+  font-family: "Times New Roman", Times, serif;
+}
+.mar-20 {
+  margin: 20px;
+}
+.pad-10 {
+  padding: 10px;
+}
+.box-200-150 {
+  width: 200px;
+  height: 150px;
+  border: 2px solid black;
+}
+.img_border {
+  border: 2px solid blue;
+  height: 250px;
+  width: 250px;
+}
+.bullet_square {
+  list-style-type: square;
+}
+.decimal_numbered {
+  list-style: decimal;
+}
+#no_list_style {
+  list-style: none;
+}
+.bg_gray {
+  background-color: gray;
+  border: 2px solid black;
+}
+tr,
+th,
+td {
+  border: 2px solid black;
+}
+table {
+  border-collapse: collapse;
+}
+td:first-child,
+th:first-child {
+  width: 200px;
+}
+.bg-green-relative {
+  background-color: green;
+  position: relative;
+}
+.bg-yellow-absolute {
+  background-color: yellow;
+  width: 125px;
+  height: 125px;
+  bottom: 125px;
+  left: 125px;
+  position: absolute;
+}
+.bg-blue-absolute {
+  background-color: blue;
+  width: 125px;
+  height: 125px;
+  position: absolute;
+  border: 2px solid blue;
+}
+.bg-white-absolute {
+  background-color: white;
+  width: 50px;
+  height: 50px;
+  opacity: 1;
+  position: absolute;
+  z-index: 2;
+}
+.bg-black-absolute {
+  background-color: black;
+  width: 50px;
+  height: 50px;
+  top: 25px;
+  position: absolute;
+}
+.pos-absolute {
+  position: absolute;
+}
+.adjustment {
+  margin-top: 115px;
+}
+a:hover {
+  color: pink;
+}
+div:first-child {
+  background-color: pink;
+}
+.clr-red {
+  color: red !important;
+}
+.inline {
+  display: inline;
+}
+.block {
+  display: block;
+}
+.hidden {
+  display: none;
+}
+table tr:nth-child(odd) {
+  background-color: blue !important;
+}
+p::first-letter {
+  color: green;
+}
