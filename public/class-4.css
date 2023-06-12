@@ -1,0 +1,263 @@
+@media screen and (min-width: 521px) {
+  .imageGalleryContainer {
+    display: flex;
+    flex-flow: row;
+  }
+  .imageGallery {
+    flex: 1;
+    margin: 5px;
+    max-width: 250px;
+  }
+  .backgroundColor {
+    background-color: black;
+  }
+  .variableFontSize {
+    font-size: 35px;
+  }
+  .navbar {
+    display: flex;
+    flex-flow: row wrap;
+    background-color: lightgray;
+    align-items: center;
+    justify-content: space-between;
+    position: sticky;
+    top: 0;
+  }
+  .navIcon,
+  .navItem {
+    margin: 5px;
+  }
+  .grid {
+    display: flex;
+    flex-flow: row wrap;
+  }
+  .gridItem {
+    margin: 10 px;
+    padding: 10 px;
+    text-align: center;
+  }
+  #gridItem1 {
+    flex: 25%;
+    background-color: blue;
+  }
+  #gridItem2 {
+    flex: 30%;
+    background-color: green;
+  }
+  #gridItem3 {
+    flex: 45%;
+    background-color: yellow;
+  }
+  #gridItem4 {
+    flex: 100%;
+    background-color: purple;
+  }
+}
+@media screen and (max-width: 520px) {
+  .imageGalleryContainer {
+    display: flex;
+    flex-flow: column;
+  }
+  .imageGallery {
+    flex: 1;
+    margin: 5px;
+    max-width: 250px;
+  }
+  .backgroundColor {
+    background-color: green;
+  }
+  .variableFontSize {
+    font-size: 20px;
+  }
+  .navbar {
+    display: flex;
+    flex-flow: row wrap;
+    background-color: lightgray;
+    align-items: center;
+    /* justify-content: space-between; */
+  }
+  .navIcon {
+    margin: 5px;
+  }
+  .navItems {
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+  }
+  .navItem {
+    margin: 5px;
+  }
+  .grid {
+    display: flex;
+    flex-flow: row wrap;
+  }
+  .gridItem {
+    margin: 10 px;
+    padding: 10 px;
+    text-align: center;
+  }
+  #gridItem1 {
+    flex: 50%;
+    background-color: blue;
+  }
+  #gridItem2 {
+    flex: 50%;
+    background-color: green;
+  }
+  #gridItem3 {
+    flex: 100%;
+    background-color: yellow;
+  }
+  #gridItem4 {
+    flex: 100%;
+    background-color: purple;
+  }
+}
+.dispFlex {
+  display: flex;
+}
+.threeColLayout {
+  width: 100%;
+  height: 100px;
+  background-color: #f1f1f1;
+  display: flex;
+  flex-flow: row wrap;
+}
+.firstBox {
+  background-color: aqua;
+  width: 250px;
+}
+.secondBox {
+  background-color: green;
+  flex-grow: 1;
+}
+.thirdBox {
+  background-color: red;
+  width: 250px;
+}
+.dynamicCardHeight {
+  display: flex;
+  background-color: #f1f1f1;
+}
+.dcBox {
+  align-self: flex-end;
+  border: 2px solid black;
+  width: 33.33%;
+}
+.sideBarContainer {
+  display: flex;
+}
+.mainContent {
+  flex: 1;
+  background-color: lightblue;
+}
+.sidebarContent {
+  flex: 0 0 250px;
+  background-color: gray;
+  max-height: 100px;
+  overflow: auto;
+  position: sticky;
+  top: 80px;
+}
+.pricingContainer {
+  display: flex;
+  justify-content: space-evenly;
+}
+.pricingChild {
+  background-color: green;
+  height: 100px;
+  width: 20%;
+  text-align: center;
+  font-weight: bold;
+}
+.menuList {
+  list-style-type: none;
+  display: flex;
+}
+
+.menuList li {
+  position: relative;
+}
+.menuList li a {
+  padding: 10px;
+  text-decoration: none;
+  color: green;
+}
+.subMenu {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  display: none;
+  flex-direction: column;
+  background-color: #f1f1f1;
+  padding: 10px;
+}
+.menuList li:hover > .subMenu {
+  display: flex;
+}
+.posSticky {
+  position: sticky;
+  bottom: 0;
+}
+.stickyFooter {
+  background-color: burlywood;
+  color: green;
+}
+.loginForm {
+  display: flex;
+  flex-flow: column wrap;
+  align-items: center;
+}
+.userName {
+  margin: 5px;
+}
+.password {
+  margin: 5px;
+}
+.submitButton {
+  margin: 5px;
+}
+.timeline {
+  display: flex;
+}
+.event {
+  color: green;
+  margin: 5px;
+  background-color: lightcyan;
+  flex: 1;
+  text-align: center;
+}
+
+.divCentering {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: green;
+}
+.divCenterFlexContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: aliceblue;
+  height: 100px;
+}
+.overFlowContainer {
+  width: 100px;
+  height: 100px;
+  background-color: aliceblue;
+}
+.hiddenOverflow {
+  overflow: hidden;
+}
+.scrollOverflow {
+  overflow: scroll;
+}
+.autoOverflow {
+  overflow: auto;
+}
+.horizontalOverflowContainer {
+  overflow-x: scroll;
+  white-space: nowrap;
+  background-color: aliceblue;
+}
