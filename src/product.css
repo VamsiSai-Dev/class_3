@@ -1,0 +1,18 @@
+ul {
+  list-style-type: none;
+  display: flex;
+  flex-flow: row wrap;
+  background-color: aliceblue;
+  gap: 5px;
+  /* place-content: space-between; */
+}
+
+ul li img {
+  width: 200px;
+  height: 200px;
+  border: 2px dotted gray;
+}
+
+ul li p {
+  width: 200px;
+}
